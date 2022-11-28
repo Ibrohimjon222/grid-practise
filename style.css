@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.cards{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card{
+    width: 400px;
+    gap: 10px 20px;
+    background-color: aqua;
+    padding: 20px;
+    display: grid;
+    grid-template-areas: "a b c" 
+    " d e f"  ;
+    border: 1px solid grey;
+}
+.card div{
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+.child1{
+    grid-area: a;
+}
+.child2{
+    grid-area: b;
+}
+.child3{
+    grid-area: c;
+}
+.child4{
+    grid-area: d;
+}
+.child5{
+    grid-area: e;
+}
+.child6{
+    grid-area: f;
+}
+.cursors{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.kard1{
+    display: grid;
+    grid-template-areas: " a a b"
+    ' c d b';
+    width: 400px;
+    gap: 10px 20px;
+    background-color: aqua;
+    border: 1px solid grey;
+    padding: 20px;
+}
+.kard1 div{
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+.bola1{
+    grid-area: a;
+}
+.bola2{
+    grid-area: b;
+}
+.bola3{
+    grid-area: c;
+}
+.bola4{
+    grid-area: d;
+}
+.kard2{
+    display: grid;
+    grid-template-areas: " a a b b"
+    " c d d d"
+    " e e e e";
+    width: 400px;
+    gap: 10px 20px;
+    background-color: aqua;
+    border: 1px solid grey;
+    padding: 20px;
+}
+.kard2 div{
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+.kid1{
+    grid-area: a;
+}
+.kid2{
+    grid-area: b;
+}
+.kid3{
+    grid-area: c;
+}
+.kid4{
+    grid-area: d;
+}
+.kid5{
+    grid-area: e;
+}
+.numbers{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.num1{
+    display: grid;
+    grid-template-areas: "a a a a "
+    " b b c c"
+    " b b d e";
+    width: 400px;
+    gap: 10px 20px;
+    background-color: aqua;
+    border: 1px solid grey;
+    padding: 20px;
+}
+.num1 div{
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+.one{
+    grid-area: a;
+}
+.two{
+    grid-area: b;
+}
+.three{
+    grid-area: c;
+}
+.four{
+    grid-area: d;
+}
+.five{
+    grid-area: e;
+}
+.site{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-areas: " a a a"
+    "b c d"
+    "b e e";
+    border: 5px solid blue;
+}
+.site div{
+    background: transparent;
+    text-align: center;
+    border: 5px solid blue;
+    padding: 20px;
+   
+}
+.header{
+    grid-area: a;
+}
+.menu{
+    grid-area: b;
+    display: grid;
+    place-items: center;
+}
+.main{
+    grid-area: c;
+}
+.right{
+    grid-area: d;
+}
+.footer{
+    grid-area: e;
+}
